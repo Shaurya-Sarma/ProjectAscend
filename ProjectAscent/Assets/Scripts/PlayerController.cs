@@ -111,7 +111,6 @@ public class PlayerController : MonoBehaviour
     {
       if (enemy.tag == "EnemyProjectile")
       {
-        Debug.Log("DESTOREDY");
         Destroy(enemy.gameObject);
       }
       else
