@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMageBehavior : MonoBehaviour
 {
-  public Transform player;
+  private Transform player;
   private bool isAttacking = false;
   private Vector3 distance;
   private float distanceFrom;
@@ -18,11 +18,13 @@ public class EnemyMageBehavior : MonoBehaviour
   }
   private void Update()
   {
+    player = GameObject.FindGameObjectWithTag("Player").transform;
+
     // Determine Distance between Mage And Player
     distance = this.transform.position - player.position;
     distance.y = 0;
-    distanceFrom = distance.magnitude;
-    distance /= distanceFrom;
+    distanceFrom = Vector2.Distance(this.transform.position, player.position);
+
 
     if (distance.x > 0)
     {
@@ -36,6 +38,7 @@ public class EnemyMageBehavior : MonoBehaviour
 
     if (distanceFrom < 10)
     {
+
       isAttacking = true;
     }
     else

@@ -13,6 +13,7 @@ public class HealthSystem : MonoBehaviour
   public Sprite emptyHeart;
   public Animator animator;
   public float invincibleTime = 2f;
+  public GameMaster gameMaster;
   private void Update()
   {
 
@@ -79,7 +80,7 @@ public class HealthSystem : MonoBehaviour
     }
   }
 
-  IEnumerator PlayerHurt()
+  private IEnumerator PlayerHurt()
   {
     //IGNORE COLLISIONS WITH OTHER ENEMIES
     int enemyLayer = LayerMask.NameToLayer("Enemies");
@@ -101,27 +102,15 @@ public class HealthSystem : MonoBehaviour
     GetComponent<PlayerController>().enabled = false;
     Physics2D.IgnoreLayerCollision(9, 10);
     animator.SetBool("isDead", true);
-    // TODO SHOW GAME OVER SCREEN
-    StartCoroutine(RestartGame());
   }
 
-  IEnumerator RestartGame()
-
+  private void RespawnPlayer()
   {
-    bool wait = true;
-    while (wait)
-    {
-      if (Input.anyKeyDown)
-      {
-        LevelManager.instance.ReloadLevel();
-        health = numOfHearts;
-        animator.SetBool("isDead", false);
-        GetComponent<PlayerController>().enabled = true;
-        Physics2D.IgnoreLayerCollision(9, 10, false);
-        wait = false;
-      }
-      yield return null;
-    }
+    gameMaster.RestartGame();
+    health = numOfHearts;
+    animator.SetBool("isDead", false);
+    GetComponent<PlayerController>().enabled = true;
+    Physics2D.IgnoreLayerCollision(9, 10, false);
   }
 
 }

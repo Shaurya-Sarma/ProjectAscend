@@ -9,6 +9,7 @@ TagManager:
   - MovingPlatform
   - Platform
   - EnemyProjectile
+  - GameMaster
   layers:
   - Default
   - TransparentFX
