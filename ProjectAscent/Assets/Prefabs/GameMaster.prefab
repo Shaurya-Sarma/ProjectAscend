@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2497563763064253495}
   m_Layer: 0
   m_Name: GameMaster
-  m_TagString: TextManager
+  m_TagString: GameMaster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,8 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorText: {fileID: 0}
-  player: {fileID: 0}
-  spawnPoint: {fileID: 6294708740236760494}
 --- !u!1001 &5195290646956947250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62,12 +60,12 @@ PrefabInstance:
     - target: {fileID: 2252412717708927644, guid: 5c8e0323897ccdb429275495479daed8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -312.7881
+      value: -305.75
       objectReference: {fileID: 0}
     - target: {fileID: 2252412717708927644, guid: 5c8e0323897ccdb429275495479daed8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -95.426025
+      value: -93.6
       objectReference: {fileID: 0}
     - target: {fileID: 2252412717708927644, guid: 5c8e0323897ccdb429275495479daed8,
         type: 3}

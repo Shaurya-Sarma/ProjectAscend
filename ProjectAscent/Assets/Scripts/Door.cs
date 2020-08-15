@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-  public Canvas HUD;
   private GameMaster gm;
 
   private void Start()
@@ -48,7 +47,6 @@ public class Door : MonoBehaviour
   private void LoadNextScene()
   {
     int SceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
-    DontDestroyOnLoad(HUD);
     SceneManager.LoadScene(SceneToLoad);
   }
 }
