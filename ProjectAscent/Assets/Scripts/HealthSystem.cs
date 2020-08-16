@@ -14,6 +14,8 @@ public class HealthSystem : MonoBehaviour
   public Animator animator;
   public float invincibleTime = 2f;
   public GameMaster gameMaster;
+  public float slowEffect = 3.5f;
+  public float speedDecrease = 3f;
   private void Update()
   {
 
@@ -77,6 +79,11 @@ public class HealthSystem : MonoBehaviour
       {
         StartCoroutine(PlayerHurt());
       }
+
+      if (other.gameObject.name == "iceOrb" || other.gameObject.name == "iceOrb(Clone)")
+      {
+        StartCoroutine(PlayerSlow());
+      }
     }
   }
 
@@ -111,6 +118,16 @@ public class HealthSystem : MonoBehaviour
     animator.SetBool("isDead", false);
     GetComponent<PlayerController>().enabled = true;
     Physics2D.IgnoreLayerCollision(9, 10, false);
+  }
+
+  private IEnumerator PlayerSlow()
+  {
+    Color originalColor = gameObject.GetComponent<SpriteRenderer>().material.color;
+    GetComponent<PlayerController>().speed -= 3;
+    gameObject.GetComponent<SpriteRenderer>().material.color = new Color(0, 0, 1.2f, 1);
+    yield return new WaitForSeconds(slowEffect);
+    gameObject.GetComponent<SpriteRenderer>().material.color = originalColor;
+    GetComponent<PlayerController>().speed += 3;
   }
 
 }
