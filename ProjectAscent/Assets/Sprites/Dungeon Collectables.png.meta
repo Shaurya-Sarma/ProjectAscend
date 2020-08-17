@@ -1,322 +1,322 @@
 fileFormatVersion: 2
-guid: aaa6ed922388941e8a1e8c9a7cb2a712
+guid: 28f78da3d6b787e449999005c16a8f44
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5663061954668274717
-    second: tileset_0
+      213: -4981027512063062209
+    second: Dungeon Collectables_0
   - first:
-      213: 6007627129536956325
-    second: tileset_1
+      213: 8491543709793888540
+    second: Dungeon Collectables_1
   - first:
-      213: -7486092956772349302
-    second: tileset_2
+      213: -7926764574928860638
+    second: Dungeon Collectables_2
   - first:
-      213: -3627264120405484348
-    second: tileset_3
+      213: 8376373798699548044
+    second: Dungeon Collectables_3
   - first:
-      213: -4815885190406460031
-    second: tileset_4
+      213: -1993628870884830186
+    second: Dungeon Collectables_4
   - first:
-      213: 7477116942032994148
-    second: tileset_5
+      213: -5718687790894517427
+    second: Dungeon Collectables_5
   - first:
-      213: -396035294860175646
-    second: tileset_6
+      213: -3715489973487708034
+    second: Dungeon Collectables_6
   - first:
-      213: 8233071653059976297
-    second: tileset_7
+      213: 3981406535509432002
+    second: Dungeon Collectables_7
   - first:
-      213: -7775419718026629507
-    second: tileset_8
+      213: -3796129081628504124
+    second: Dungeon Collectables_8
   - first:
-      213: -781294158744790408
-    second: tileset_9
+      213: -7075445026061771052
+    second: Dungeon Collectables_9
   - first:
-      213: 9061651696941551919
-    second: tileset_10
+      213: 4604653957286751398
+    second: Dungeon Collectables_10
   - first:
-      213: -6985117363303071740
-    second: tileset_11
+      213: -9039626606516614119
+    second: Dungeon Collectables_11
   - first:
-      213: 8642771837104280003
-    second: tileset_12
+      213: 6682896973852923195
+    second: Dungeon Collectables_12
   - first:
-      213: -1762573714345474896
-    second: tileset_13
+      213: -7094880711516134970
+    second: Dungeon Collectables_13
   - first:
-      213: 11442893378838041
-    second: tileset_14
+      213: 3731069644163115339
+    second: Dungeon Collectables_14
   - first:
-      213: -317771678647371661
-    second: tileset_15
+      213: -2899221626762912873
+    second: Dungeon Collectables_15
   - first:
-      213: -2426843357703420916
-    second: tileset_16
+      213: 5276200900968943004
+    second: Dungeon Collectables_16
   - first:
-      213: -3642208251427772964
-    second: tileset_17
+      213: -6681965107842798902
+    second: Dungeon Collectables_17
   - first:
-      213: 3985221016008397036
-    second: tileset_18
+      213: 6506629424491578777
+    second: Dungeon Collectables_18
   - first:
-      213: 5778961287088506303
-    second: tileset_19
+      213: 6829010362773081039
+    second: Dungeon Collectables_19
   - first:
-      213: 8758155216525550727
-    second: tileset_20
+      213: 8585337745559550001
+    second: Dungeon Collectables_20
   - first:
-      213: 6116080786932476827
-    second: tileset_21
+      213: 3045172811279320518
+    second: Dungeon Collectables_21
   - first:
-      213: -1385786070971223102
-    second: tileset_22
+      213: 2698192754117038406
+    second: Dungeon Collectables_22
   - first:
-      213: -538331831730588137
-    second: tileset_23
+      213: 510378136601011835
+    second: Dungeon Collectables_23
   - first:
-      213: -6923900727490736670
-    second: tileset_24
+      213: 5130627243197491662
+    second: Dungeon Collectables_24
   - first:
-      213: 5043307788359985916
-    second: tileset_25
+      213: 7139187838515069791
+    second: Dungeon Collectables_25
   - first:
-      213: -5587653796134901919
-    second: tileset_26
+      213: -4095409828478574506
+    second: Dungeon Collectables_26
   - first:
-      213: -4272949958406870782
-    second: tileset_27
+      213: 5432353997622487570
+    second: Dungeon Collectables_27
   - first:
-      213: -4827537604736492380
-    second: tileset_28
+      213: -1562064083800305476
+    second: Dungeon Collectables_28
   - first:
-      213: 4021183171127385890
-    second: tileset_29
+      213: -7044564965042940968
+    second: Dungeon Collectables_29
   - first:
-      213: -7967309640338825673
-    second: tileset_30
+      213: 4728079521747387509
+    second: Dungeon Collectables_30
   - first:
-      213: 1237908169197521079
-    second: tileset_31
+      213: 3415182904475538826
+    second: Dungeon Collectables_31
   - first:
-      213: 5018706250341604807
-    second: tileset_32
+      213: -6352183285247097963
+    second: Dungeon Collectables_32
   - first:
-      213: -6468910726198660926
-    second: tileset_33
+      213: 6732726125909585893
+    second: Dungeon Collectables_33
   - first:
-      213: -6157781805458569218
-    second: tileset_34
+      213: 6288459789718912356
+    second: Dungeon Collectables_34
   - first:
-      213: 3048538982666575687
-    second: tileset_35
+      213: -8897916520915732096
+    second: Dungeon Collectables_35
   - first:
-      213: -1518774645772049220
-    second: tileset_36
+      213: -1484005838747827312
+    second: Dungeon Collectables_36
   - first:
-      213: -3697150339598545061
-    second: tileset_37
+      213: 2119473919272843211
+    second: Dungeon Collectables_37
   - first:
-      213: -7131273655155896711
-    second: tileset_38
+      213: -739816467086169766
+    second: Dungeon Collectables_38
   - first:
-      213: 8621815960616643281
-    second: tileset_39
+      213: 3618095115115201316
+    second: Dungeon Collectables_39
   - first:
-      213: -6205172343615221245
-    second: tileset_40
+      213: 8859461837538376766
+    second: Dungeon Collectables_40
   - first:
-      213: 7654806567737475841
-    second: tileset_41
+      213: 5500159539016708025
+    second: Dungeon Collectables_41
   - first:
-      213: -1702772467812443111
-    second: tileset_42
+      213: -4443509392822675782
+    second: Dungeon Collectables_42
   - first:
-      213: 576860350140093190
-    second: tileset_43
+      213: -1642212851157522695
+    second: Dungeon Collectables_43
   - first:
-      213: 5547708042039842948
-    second: tileset_44
+      213: 7966821305654872209
+    second: Dungeon Collectables_44
   - first:
-      213: -6017339223957375553
-    second: tileset_45
+      213: -8058128219490997177
+    second: Dungeon Collectables_45
   - first:
-      213: -4116040823106012581
-    second: tileset_46
+      213: 4232332110829087699
+    second: Dungeon Collectables_46
   - first:
-      213: 6732870910531023
-    second: tileset_47
+      213: -5060553453526144757
+    second: Dungeon Collectables_47
   - first:
-      213: -6831599063569703212
-    second: tileset_48
+      213: -8234185889769579856
+    second: Dungeon Collectables_48
   - first:
-      213: -5016527918528981960
-    second: tileset_49
+      213: 1588848132050266980
+    second: Dungeon Collectables_49
   - first:
-      213: 3885819281616729284
-    second: tileset_50
+      213: 17682809781171341
+    second: Dungeon Collectables_50
   - first:
-      213: 9192141375248400463
-    second: tileset_51
+      213: -1035559217244117572
+    second: Dungeon Collectables_51
   - first:
-      213: 293392773991598977
-    second: tileset_52
+      213: 1032874224828317971
+    second: Dungeon Collectables_52
   - first:
-      213: -1978880106863730396
-    second: tileset_53
+      213: 8613126039453912486
+    second: Dungeon Collectables_53
   - first:
-      213: 2815510966112240897
-    second: tileset_54
+      213: 4075156790377629036
+    second: Dungeon Collectables_54
   - first:
-      213: 3461855256792236426
-    second: tileset_55
+      213: -4437859670124924521
+    second: Dungeon Collectables_55
   - first:
-      213: -4909924010071155561
-    second: tileset_56
+      213: 2708593062330259706
+    second: Dungeon Collectables_56
   - first:
-      213: -6748938332277025590
-    second: tileset_57
+      213: 3995863874401759228
+    second: Dungeon Collectables_57
   - first:
-      213: 2177024245305386223
-    second: tileset_58
+      213: -7802832281504000969
+    second: Dungeon Collectables_58
   - first:
-      213: 1510392478064077718
-    second: tileset_59
+      213: -4172109317174925783
+    second: Dungeon Collectables_59
   - first:
-      213: -5726643437316625391
-    second: tileset_60
+      213: -6277042810995023871
+    second: Dungeon Collectables_60
   - first:
-      213: 5224892034047083157
-    second: tileset_61
+      213: 2249171316757544893
+    second: Dungeon Collectables_61
   - first:
-      213: 1053245576194407766
-    second: tileset_62
+      213: 6189203634271931348
+    second: Dungeon Collectables_62
   - first:
-      213: 1077660200836561826
-    second: tileset_63
+      213: -1855442797508675585
+    second: Dungeon Collectables_63
   - first:
-      213: -5265849548139384413
-    second: tileset_64
+      213: -8155234835322214782
+    second: Dungeon Collectables_64
   - first:
-      213: 6418657867545673408
-    second: tileset_65
+      213: -4386946315038416306
+    second: Dungeon Collectables_65
   - first:
-      213: 6264988462522759893
-    second: tileset_66
+      213: -3426096621076245286
+    second: Dungeon Collectables_66
   - first:
-      213: 2204049225861295520
-    second: tileset_67
+      213: 1486802397360518084
+    second: Dungeon Collectables_67
   - first:
-      213: -4605163527387846987
-    second: tileset_68
+      213: 2717317207705513306
+    second: Dungeon Collectables_68
   - first:
-      213: -8673441916583476125
-    second: tileset_69
+      213: -7557153018466184766
+    second: Dungeon Collectables_69
   - first:
-      213: 2160675205206706675
-    second: tileset_70
+      213: -1445884640494133820
+    second: Dungeon Collectables_70
   - first:
-      213: -1040992118310419130
-    second: tileset_71
+      213: -8461107194484759631
+    second: Dungeon Collectables_71
   - first:
-      213: -5859045247806993216
-    second: tileset_72
+      213: 1734155852201070867
+    second: Dungeon Collectables_72
   - first:
-      213: 1946776270529680156
-    second: tileset_73
+      213: -9184375279789223778
+    second: Dungeon Collectables_73
   - first:
-      213: 3679769539610414968
-    second: tileset_74
+      213: 6487370547699295052
+    second: Dungeon Collectables_74
   - first:
-      213: -133517962813326697
-    second: tileset_75
+      213: -8343900820229595205
+    second: Dungeon Collectables_75
   - first:
-      213: 974969132830988049
-    second: tileset_76
+      213: -991507497963055286
+    second: Dungeon Collectables_76
   - first:
-      213: 54813008368543375
-    second: tileset_77
+      213: -4986168160647568055
+    second: Dungeon Collectables_77
   - first:
-      213: -1111467040747940836
-    second: tileset_78
+      213: -4763430882880004664
+    second: Dungeon Collectables_78
   - first:
-      213: 4539572432158512276
-    second: tileset_79
+      213: 3602402131439976276
+    second: Dungeon Collectables_79
   - first:
-      213: -440094530379634619
-    second: tileset_80
+      213: -6633201637061069470
+    second: Dungeon Collectables_80
   - first:
-      213: 8436483236309373761
-    second: tileset_81
+      213: 2990512398700930684
+    second: Dungeon Collectables_81
   - first:
-      213: -9128652258105010429
-    second: tileset_82
+      213: 5592133943441781655
+    second: Dungeon Collectables_82
   - first:
-      213: 5991473849112003203
-    second: tileset_83
+      213: 2291735748589580493
+    second: Dungeon Collectables_83
   - first:
-      213: 4330230722670678443
-    second: tileset_84
+      213: 8028966428354715050
+    second: Dungeon Collectables_84
   - first:
-      213: -1691220034148343436
-    second: tileset_85
+      213: 6739248836011976740
+    second: Dungeon Collectables_85
   - first:
-      213: 5437897656927332739
-    second: tileset_86
+      213: 6601766068770275637
+    second: Dungeon Collectables_86
   - first:
-      213: 1307626347214929657
-    second: tileset_87
+      213: -1711976886991855243
+    second: Dungeon Collectables_87
   - first:
-      213: 6276069379633589520
-    second: tileset_88
+      213: 2654476244915643601
+    second: Dungeon Collectables_88
   - first:
-      213: 3608026245190458011
-    second: tileset_89
+      213: -657950585130581956
+    second: Dungeon Collectables_89
   - first:
-      213: -9167755149240453841
-    second: tileset_90
+      213: 8807969989673504854
+    second: Dungeon Collectables_90
   - first:
-      213: -3026403903459387518
-    second: tileset_91
+      213: -8629404192443205113
+    second: Dungeon Collectables_91
   - first:
-      213: -912226708761013127
-    second: tileset_92
+      213: -5153863467594679520
+    second: Dungeon Collectables_92
   - first:
-      213: 64046951760991985
-    second: tileset_93
+      213: -6877182683535460945
+    second: Dungeon Collectables_93
   - first:
-      213: 6731733094262721628
-    second: tileset_94
+      213: -8292618056502113727
+    second: Dungeon Collectables_94
   - first:
-      213: 1018328791618719094
-    second: tileset_95
+      213: -6353224969517733235
+    second: Dungeon Collectables_95
   - first:
-      213: -2209401061123471698
-    second: tileset_96
+      213: 5291515845501891750
+    second: Dungeon Collectables_96
   - first:
-      213: -798795321885504356
-    second: tileset_97
+      213: 1353957706228603669
+    second: Dungeon Collectables_97
   - first:
-      213: 2734534193476647528
-    second: tileset_98
+      213: 2893986201217686178
+    second: Dungeon Collectables_98
   - first:
-      213: 4676232042555661266
-    second: tileset_99
+      213: 2121353441889084020
+    second: Dungeon Collectables_99
   - first:
-      213: 26675975723062386
-    second: tileset_100
+      213: 1923781133373865985
+    second: Dungeon Collectables_100
   - first:
-      213: 4060546897201354903
-    second: tileset_101
+      213: 4501600687642850218
+    second: Dungeon Collectables_101
   - first:
-      213: -1824318353210508716
-    second: tileset_102
+      213: -7328939129734232921
+    second: Dungeon Collectables_102
   - first:
-      213: 5679421691457111198
-    second: tileset_103
+      213: -7941780829770473178
+    second: Dungeon Collectables_103
   - first:
-      213: 4072258924830223602
-    second: tileset_104
+      213: 422606482980328374
+    second: Dungeon Collectables_104
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -413,11 +413,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset_0
+      name: Dungeon Collectables_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 0
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -427,18 +427,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b903bb7a467b8fe47afbb4aaa0cf5cfb
-      internalID: 5663061954668274717
+      spriteID: 6e480f49aceb7e8498a6a3d3a83f9a62
+      internalID: -4981027512063062209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_1
+      name: Dungeon Collectables_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
+        x: 0
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -448,102 +448,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5824e12a384cea146be5fd3f07c4c4a3
-      internalID: 6007627129536956325
+      spriteID: 37c7fd9543088924f9a40715d2a4b95a
+      internalID: 8491543709793888540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97c5cd50d32d2e4478b285f44d49a5f7
-      internalID: -7486092956772349302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_3
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f16bbdbfd9e2c7d47b22e8b4efd5149a
-      internalID: -3627264120405484348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_4
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baf6cc5b604c9ae42b2a89c18a123911
-      internalID: -4815885190406460031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_5
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afe12bbf4abd22f4eb98397198b82597
-      internalID: 7477116942032994148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_6
+      name: Dungeon Collectables_2
       rect:
         serializedVersion: 2
         x: 16
-        y: 176
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -553,18 +469,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b4367c7fb73a7443b968b0bb726bd22
-      internalID: -396035294860175646
+      spriteID: a95e9a216cbc0ab4c80eaec1ce98586d
+      internalID: -7926764574928860638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_7
+      name: Dungeon Collectables_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe6fbf12c6041143945d9f3789bb579
+      internalID: 8376373798699548044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_4
       rect:
         serializedVersion: 2
         x: 48
-        y: 176
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -574,18 +511,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e98b2aed077c54e9287a8133ec2c1f
-      internalID: 8233071653059976297
+      spriteID: 1fe34ee6ee396a84b81faf09446814f6
+      internalID: -1993628870884830186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_8
+      name: Dungeon Collectables_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
+        x: 0
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -595,186 +532,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35dc3b7fe99a4304bafa1cdbd33c18ea
-      internalID: -7775419718026629507
+      spriteID: 19bbf40f062650b45bd7727ab9f1c42a
+      internalID: -5718687790894517427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_9
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0e08f1dd5c2b85429d5bb99b6c7e760
-      internalID: -781294158744790408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_10
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c69e140a12a74d4c8f8a9a1189f5b06
-      internalID: 9061651696941551919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_11
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c412346e88da00a4c94dafd558ad63db
-      internalID: -6985117363303071740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_12
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc5f91e3d13767647b01a422ad8299c9
-      internalID: 8642771837104280003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_13
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d0f31fb78244dd459b70c18d698c2b2
-      internalID: -1762573714345474896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 447f6a11d0a90c94288c1c91e6aef6f1
-      internalID: 11442893378838041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_15
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55c900d0113505a41939e7a4af6ce829
-      internalID: -317771678647371661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_16
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64876149a87d93f4cad64d2d788d57f8
-      internalID: -2426843357703420916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_17
+      name: Dungeon Collectables_6
       rect:
         serializedVersion: 2
         x: 16
-        y: 160
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -784,18 +553,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520b7dae8da6bb3468980547791bc9a4
-      internalID: -3642208251427772964
+      spriteID: 9d611b28ea7af3d49bce6dbe374f4aa5
+      internalID: -3715489973487708034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_18
+      name: Dungeon Collectables_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05963f84911a8504999591ac00217f8b
+      internalID: 3981406535509432002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_8
       rect:
         serializedVersion: 2
         x: 48
-        y: 160
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -805,374 +595,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2a3d079456b14b47af0ba30599bfe0d
-      internalID: 3985221016008397036
+      spriteID: 688291501f97cb54694649f0ae4fd5cd
+      internalID: -3796129081628504124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_19
+      name: Dungeon Collectables_9
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d838930630731aa4484bf4cd2c6ce616
-      internalID: 5778961287088506303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_20
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32df9bd5da444004bbf238a26a171460
-      internalID: 8758155216525550727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_21
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4da1e0b4736e7a4fb8aac3cff3b27d0
-      internalID: 6116080786932476827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_22
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9063f609552a2e847b58ebcfc3d7c334
-      internalID: -1385786070971223102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_23
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eab9be9f6f2926244aec544f0a95a46a
-      internalID: -538331831730588137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_24
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e592174a01d617458b7427f49fa30b5
-      internalID: -6923900727490736670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_25
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29afe6c3b4a7ef74b90b67ecf6ca4999
-      internalID: 5043307788359985916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_26
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6be8259230ed3b14eab5a0c9907890fb
-      internalID: -5587653796134901919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_27
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e06239400d518e448abb0401e1f6e54
-      internalID: -4272949958406870782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_28
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c495b451a05f3f439ab6719e19f1db4
-      internalID: -4827537604736492380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_29
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af3acf42cc84dc043848473c7567a708
-      internalID: 4021183171127385890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_30
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff19fb8e235f0234faa82ac1b0e047d3
-      internalID: -7967309640338825673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_31
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b21cc85329c5aed4889661cc5b6d5e41
-      internalID: 1237908169197521079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_32
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d984411eb025804dba207c47b1b5e6a
-      internalID: 5018706250341604807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_33
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b24dbd742c35dd4ca4e692f43e2b725
-      internalID: -6468910726198660926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_34
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9daa3aad76997942925f7188c080e77
-      internalID: -6157781805458569218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_35
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72b5e7a9be6ea3a449d1a3ec95579f5d
-      internalID: 3048538982666575687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_36
-      rect:
-        serializedVersion: 2
-        x: 16
         y: 128
         width: 16
         height: 16
@@ -1183,270 +616,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f184150ba0bac2d4cb9d3a5bffea1b34
-      internalID: -1518774645772049220
+      spriteID: 6ee83d4ed721d6146a8d2f1e3ff75963
+      internalID: -7075445026061771052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_37
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa21fcac053e1af4a974f32b77f47a08
-      internalID: -3697150339598545061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_38
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c8962e86ca84ce46b066ff7e8c2f8b6
-      internalID: -7131273655155896711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_39
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ca9d341b4d7b3945bc145007f8b1af9
-      internalID: 8621815960616643281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_40
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c20c40c2e71c0b4ebc3498e8e61751c
-      internalID: -6205172343615221245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_41
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d51971c03ea415d40b15d36d9ec194d8
-      internalID: 7654806567737475841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_42
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 028238ab294244c4fa3dee88201e3de7
-      internalID: -1702772467812443111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_43
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab4d15182af1c904791b355fe7b7ad18
-      internalID: 576860350140093190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_44
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6c15c686500958499dfda5052e5fe78
-      internalID: 5547708042039842948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_45
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f890876d5192fc542a939b9efec325d5
-      internalID: -6017339223957375553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_46
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 715c0465e2635d14fa44e905dc2f4810
-      internalID: -4116040823106012581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_47
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b4fcae361c4c6243856a80b4e5654fa
-      internalID: 6732870910531023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_48
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42c755861c7d2614882c44326a2792b7
-      internalID: -6831599063569703212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_49
+      name: Dungeon Collectables_10
       rect:
         serializedVersion: 2
         x: 80
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1456,18 +637,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea752657d9ad1774a9e1703a4ade1cc8
-      internalID: -5016527918528981960
+      spriteID: df72accfb66a8074ab7c84746284c5b0
+      internalID: 4604653957286751398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_50
+      name: Dungeon Collectables_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0e9003a8864d24b849329df0467376
+      internalID: -9039626606516614119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_12
       rect:
         serializedVersion: 2
         x: 112
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1477,18 +679,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d87f752fe7979843820448fcbb54abe
-      internalID: 3885819281616729284
+      spriteID: d05983c7f9db9294e9807b890fa25494
+      internalID: 6682896973852923195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_51
+      name: Dungeon Collectables_13
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1498,18 +700,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72fc5bffd4219b747ad31e05ce36c22e
-      internalID: 9192141375248400463
+      spriteID: f7f36ead603d45042b261bec7e14ea87
+      internalID: -7094880711516134970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_52
+      name: Dungeon Collectables_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bd2213d3e03354e8c8c4818c2b93a4
+      internalID: 3731069644163115339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b257dd6a6a9ba49992d3aab2c48f18
+      internalID: -2899221626762912873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d273321bfac3094e9da3a951b934437
+      internalID: 5276200900968943004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_17
       rect:
         serializedVersion: 2
         x: 192
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1519,18 +784,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7314c8b89a91cce45a2483e035807968
-      internalID: 293392773991598977
+      spriteID: 9bd36063ba8d3ba418fc184e6654d104
+      internalID: -6681965107842798902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_53
+      name: Dungeon Collectables_18
       rect:
         serializedVersion: 2
         x: 208
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1540,18 +805,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aabe23c4813f0646b905595c3307530
-      internalID: -1978880106863730396
+      spriteID: c306fd143a7f5f346905e032d87d03ac
+      internalID: 6506629424491578777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_54
+      name: Dungeon Collectables_19
       rect:
         serializedVersion: 2
         x: 224
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1561,18 +826,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14034b88fdc6f174ca3fa7fe19b5a7a8
-      internalID: 2815510966112240897
+      spriteID: 9c099a49870570a428357b6f2c719fa3
+      internalID: 6829010362773081039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_55
+      name: Dungeon Collectables_20
       rect:
         serializedVersion: 2
         x: 240
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1582,18 +847,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31909b1c4b9773c4da2a31cf3e1e6c8d
-      internalID: 3461855256792236426
+      spriteID: f645848934337fc49bd5a3a69e2f69ba
+      internalID: 8585337745559550001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_56
+      name: Dungeon Collectables_21
       rect:
         serializedVersion: 2
         x: 256
-        y: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1603,18 +868,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba367d6361bfbb4ea407fbded06c7b5
-      internalID: -4909924010071155561
+      spriteID: ed8997f643049254b8b9df0440697228
+      internalID: 3045172811279320518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_57
+      name: Dungeon Collectables_22
       rect:
         serializedVersion: 2
-        x: 288
-        y: 96
+        x: 272
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1624,18 +889,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f6f01505647dd945abc55315490b37e
-      internalID: -6748938332277025590
+      spriteID: 0bf611c0160bd544188c455928931951
+      internalID: 2698192754117038406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_58
+      name: Dungeon Collectables_23
       rect:
         serializedVersion: 2
-        x: 304
-        y: 96
+        x: 0
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1645,18 +910,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7f56a336dac2d3408cbea67741da53f
-      internalID: 2177024245305386223
+      spriteID: 2430521335d82f64c9d892fe0652f38d
+      internalID: 510378136601011835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_59
+      name: Dungeon Collectables_24
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1666,18 +931,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27cccebab5512754baeb795932bcb67a
-      internalID: 1510392478064077718
+      spriteID: 25c5843464b252747a9c5d189b857947
+      internalID: 5130627243197491662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_60
+      name: Dungeon Collectables_25
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1687,18 +952,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b9b8103b64a8374ca97c4097b2fa535
-      internalID: -5726643437316625391
+      spriteID: c2dbaab8204b77b489293be41909f609
+      internalID: 7139187838515069791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_61
+      name: Dungeon Collectables_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6d405ae345e0f4ab0416d9bf995666
+      internalID: -4095409828478574506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_27
       rect:
         serializedVersion: 2
         x: 64
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1708,18 +994,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b15fa5653abdb64e96a17822ecc983c
-      internalID: 5224892034047083157
+      spriteID: 66f03045709432e4b9c4b67a649bdbce
+      internalID: 5432353997622487570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_62
+      name: Dungeon Collectables_28
       rect:
         serializedVersion: 2
         x: 80
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1729,18 +1015,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93592547693384a41bb509d884272c62
-      internalID: 1053245576194407766
+      spriteID: f722ee9eed45afa47b839ae20624474c
+      internalID: -1562064083800305476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_63
+      name: Dungeon Collectables_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4bbc0828518264c923828f3ae2195b
+      internalID: -7044564965042940968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_30
       rect:
         serializedVersion: 2
         x: 112
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1750,18 +1057,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d442da01584ff4eb8dbaf8391f7f66
-      internalID: 1077660200836561826
+      spriteID: 511e453a86476c44699e3c059a3bf4a0
+      internalID: 4728079521747387509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_64
+      name: Dungeon Collectables_31
       rect:
         serializedVersion: 2
         x: 128
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1771,18 +1078,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4498ad3a89f7a741912ba01866b52fc
-      internalID: -5265849548139384413
+      spriteID: 4cfb794536b8bee4fbe298366f9a179a
+      internalID: 3415182904475538826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_65
+      name: Dungeon Collectables_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b8c5b43af36184ca836fafc17eaaaf
+      internalID: -6352183285247097963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54eed48116779f4db95118842ad4f32
+      internalID: 6732726125909585893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ffb1f92592c6a4a87cc4d2ba546b6e
+      internalID: 6288459789718912356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_35
       rect:
         serializedVersion: 2
         x: 192
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1792,39 +1162,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e577d933c7dab45adbafb0a8b1c027
-      internalID: 6418657867545673408
+      spriteID: e31ba8c567f5a414aa1cd599bc9aac24
+      internalID: -8897916520915732096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_66
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0035a230fd9d47d479254982a4828e98
-      internalID: 6264988462522759893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_67
+      name: Dungeon Collectables_36
       rect:
         serializedVersion: 2
         x: 224
-        y: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1834,38 +1183,290 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe9a62650a402fd4a9aad113c387c26e
-      internalID: 2204049225861295520
+      spriteID: 285023ad438e5074a9b50ce55fd0c2d0
+      internalID: -1484005838747827312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_68
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 307ef140735dd284fa67d6fbc24094e9
-      internalID: -4605163527387846987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_69
+      name: Dungeon Collectables_37
       rect:
         serializedVersion: 2
         x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b5831256046bd4282cedaa85c80d33
+      internalID: 2119473919272843211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d9875ed2125c849ba40ee6c7f1370b
+      internalID: -739816467086169766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc941418e4dc0e64c94db90a2acc2ba2
+      internalID: 3618095115115201316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52a032c7035bfc4eaa43ab7eef1818a
+      internalID: 8859461837538376766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2185569998924624689aa4a643bc9c42
+      internalID: 5500159539016708025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3caf684abce0564f8355c7fc946b347
+      internalID: -4443509392822675782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce6fa7daeb96a54dbabc98310751ec5
+      internalID: -1642212851157522695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fbda5e1d0be58498e9a43ba0d1d0e7
+      internalID: 7966821305654872209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480aeec5ee1aa9449bc191781d3ea613
+      internalID: -8058128219490997177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f289ce466751fc54198f23ee3d46f074
+      internalID: 4232332110829087699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_47
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8c0a7591e5bc04b904da06a1115b47
+      internalID: -5060553453526144757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e25dc8d00d0e469576cfcb370d9b9
+      internalID: -8234185889769579856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54f948fdf8c31145a2050a07494ead3
+      internalID: 1588848132050266980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_50
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 80
         width: 16
         height: 16
@@ -1876,14 +1477,371 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6316871b65487554e84ba67fc36fd1f8
-      internalID: -8673441916583476125
+      spriteID: 597532f147760744d862bfccedb44647
+      internalID: 17682809781171341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_70
+      name: Dungeon Collectables_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c2e128a8e42ab4587eadd0059abc54
+      internalID: -1035559217244117572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f65c8e116dab7a44bc660d552547634
+      internalID: 1032874224828317971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bda611b234f0b488be296f11b71358
+      internalID: 8613126039453912486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212906abd3d5e3844b2ef7979a9fc026
+      internalID: 4075156790377629036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64693ce9aa4f77542a97f8e1ed3b1619
+      internalID: -4437859670124924521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e94bcdf36db5d419c939b3c3648a40
+      internalID: 2708593062330259706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15c5058c6e81604e877f0c91d4d955e
+      internalID: 3995863874401759228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf367f1de83c54f9c87d69a151eea0
+      internalID: -7802832281504000969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b49939d201e2b340ad8b545fd7fe30a
+      internalID: -4172109317174925783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5ef41084acceb4f91b87efd99f0b08
+      internalID: -6277042810995023871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4048c4a2f503722499cb6cfd81da46dd
+      internalID: 2249171316757544893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484dd7102bdd4a049a3dd2ea612f237e
+      internalID: 6189203634271931348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863027bdd7c8fab40ab173b37d75004e
+      internalID: -1855442797508675585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede5847cf50f1724ca15d9c30e6004dd
+      internalID: -8155234835322214782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953a13f104acb6c4f8ed4af2d934e7d1
+      internalID: -4386946315038416306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3388925c5d5c2d4bb95cab943f0d4a6
+      internalID: -3426096621076245286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493316f31e03b9341b7b30eb3964415d
+      internalID: 1486802397360518084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_68
       rect:
         serializedVersion: 2
         x: 0
@@ -1897,14 +1855,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47f79da5b303af74aac49d79c8050d4c
-      internalID: 2160675205206706675
+      spriteID: 9beb24d564870924f98beb0ad12cceca
+      internalID: 2717317207705513306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_71
+      name: Dungeon Collectables_69
       rect:
         serializedVersion: 2
         x: 16
@@ -1918,14 +1876,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e23fe6619803642a9be4c673900ee9
-      internalID: -1040992118310419130
+      spriteID: eeae81809a598584a8892f0ff032c93e
+      internalID: -7557153018466184766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_72
+      name: Dungeon Collectables_70
       rect:
         serializedVersion: 2
         x: 32
@@ -1939,14 +1897,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5d36a8cd28c7f4e88c884dffe33e56
-      internalID: -5859045247806993216
+      spriteID: 5c10cad057537064685b86c35f30ef40
+      internalID: -1445884640494133820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_73
+      name: Dungeon Collectables_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6e25f04d074db42acb35ff1d9a1b30
+      internalID: -8461107194484759631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_72
       rect:
         serializedVersion: 2
         x: 64
@@ -1960,217 +1939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba3b74feba0ef704ea54132380b609e7
-      internalID: 1946776270529680156
+      spriteID: e8c60ee580a21a746966ccbf48b5a8cf
+      internalID: 1734155852201070867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_74
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 336eaa6f94cfac848924aaa371f67722
-      internalID: 3679769539610414968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_75
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09add1ff7e441cb45a5efea719b62a88
-      internalID: -133517962813326697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_76
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b8655255ac3a594a97795bfa99df05a
-      internalID: 974969132830988049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_77
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43999bb548201964eb8201e7ee667b82
-      internalID: 54813008368543375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_78
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e836b15a635bb8e4e865fc72005edc23
-      internalID: -1111467040747940836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_79
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: edbe2669c908e7043b97a20061cf82e1
-      internalID: 4539572432158512276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_80
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -8, y: 0}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: a57c573fe59111549bf586b49b81e7e5
-      internalID: -440094530379634619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_81
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 1}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14aefe7674516fc42ad57d689ca176d6
-      internalID: 8436483236309373761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_82
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: -8, y: 1}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e80cf649f52fe9241af2f217c5e7e1d7
-      internalID: -9128652258105010429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_83
+      name: Dungeon Collectables_73
       rect:
         serializedVersion: 2
         x: 0
@@ -2184,14 +1960,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6fa9e508646d91438ce8b2444228c54
-      internalID: 5991473849112003203
+      spriteID: 14c044eb078de3f43b5d9f370f246c95
+      internalID: -9184375279789223778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_84
+      name: Dungeon Collectables_74
       rect:
         serializedVersion: 2
         x: 16
@@ -2205,14 +1981,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2c485313d52f9648b6ffbae6151c428
-      internalID: 4330230722670678443
+      spriteID: 85654f3f5813e0840a9ae88e9c3c5d06
+      internalID: 6487370547699295052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_85
+      name: Dungeon Collectables_75
       rect:
         serializedVersion: 2
         x: 32
@@ -2226,14 +2002,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af58f160391c8634ea6a71f15a1841aa
-      internalID: -1691220034148343436
+      spriteID: a35dbb44aa9fdd24a87fb88ec7fe058b
+      internalID: -8343900820229595205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_86
+      name: Dungeon Collectables_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ffd222c9b157b4e9b68dd6ff07e721
+      internalID: -991507497963055286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_77
       rect:
         serializedVersion: 2
         x: 64
@@ -2247,14 +2044,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 820c0f259b86c6c43b52805398f343b1
-      internalID: 5437897656927332739
+      spriteID: 88d6176266c4a98459a56defed4a514f
+      internalID: -4986168160647568055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_87
+      name: Dungeon Collectables_78
       rect:
         serializedVersion: 2
         x: 80
@@ -2268,14 +2065,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e24d32417f6d9f489f16df32a58a8ac
-      internalID: 1307626347214929657
+      spriteID: 02360ee6b1c3fee489e4af491f646277
+      internalID: -4763430882880004664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_88
+      name: Dungeon Collectables_79
       rect:
         serializedVersion: 2
         x: 96
@@ -2289,14 +2086,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61a3424b434776499fee62d1dbb38e2
-      internalID: 6276069379633589520
+      spriteID: 0ef10a8fe4513e84cbe1bad8abb04cc5
+      internalID: 3602402131439976276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_89
+      name: Dungeon Collectables_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b48ab01d0a1dce459c05cd82b0d08c8
+      internalID: -6633201637061069470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_81
       rect:
         serializedVersion: 2
         x: 128
@@ -2310,14 +2128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0cc50eb2e200ab4197d6ed7633c2485
-      internalID: 3608026245190458011
+      spriteID: 2d70238ca3ba99247ab2a60497e0c223
+      internalID: 2990512398700930684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_90
+      name: Dungeon Collectables_82
       rect:
         serializedVersion: 2
         x: 144
@@ -2331,14 +2149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dde3efe532e9db4188708921f23d203
-      internalID: -9167755149240453841
+      spriteID: f56b7052a9cc2524bb36ba68a44fa4b7
+      internalID: 5592133943441781655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_91
+      name: Dungeon Collectables_83
       rect:
         serializedVersion: 2
         x: 160
@@ -2352,17 +2170,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97868c53cbdd1aa4f82ef8b45d3258f0
-      internalID: -3026403903459387518
+      spriteID: b08ac0a3b16632d4eab381480c4687ad
+      internalID: 2291735748589580493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_92
+      name: Dungeon Collectables_84
       rect:
         serializedVersion: 2
-        x: 192
+        x: 176
         y: 32
         width: 16
         height: 16
@@ -2373,77 +2191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 504677c02a8141f42bece21f466f5852
-      internalID: -912226708761013127
+      spriteID: 2828e19322e2c7a4c9905d925e520a18
+      internalID: 8028966428354715050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_93
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95846844244b5d44bbd59806c97b4a8a
-      internalID: 64046951760991985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_94
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f547006d972fbaf4e9309ecae3c5563d
-      internalID: 6731733094262721628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_95
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 413dc24581435c0489a9710fe3739227
-      internalID: 1018328791618719094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_96
+      name: Dungeon Collectables_85
       rect:
         serializedVersion: 2
         x: 0
@@ -2457,14 +2212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddeae6866b0d6b243a8c876f1bc639a7
-      internalID: -2209401061123471698
+      spriteID: 362664952a6c9a94f94fb9faf7fe0554
+      internalID: 6739248836011976740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_97
+      name: Dungeon Collectables_86
       rect:
         serializedVersion: 2
         x: 16
@@ -2478,14 +2233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4399164ce82f48e4aa5ac9f5621d403a
-      internalID: -798795321885504356
+      spriteID: 9f0362ccb724f034bb060fc1e0a1bbcd
+      internalID: 6601766068770275637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_98
+      name: Dungeon Collectables_87
       rect:
         serializedVersion: 2
         x: 32
@@ -2499,14 +2254,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f041638a456de4aa4d67578b792793
-      internalID: 2734534193476647528
+      spriteID: bb079748facf43f4688a52e848c8d667
+      internalID: -1711976886991855243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_99
+      name: Dungeon Collectables_88
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a747d8641463d4ea881be45123ec0d
+      internalID: 2654476244915643601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_89
       rect:
         serializedVersion: 2
         x: 64
@@ -2520,14 +2296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05f297dc661362c49a79291db621874d
-      internalID: 4676232042555661266
+      spriteID: eed9eb80dd078fb4bb4df9d18d96935a
+      internalID: -657950585130581956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_100
+      name: Dungeon Collectables_90
       rect:
         serializedVersion: 2
         x: 80
@@ -2541,14 +2317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab15ab6ba0b48847885f2612e302aa7
-      internalID: 26675975723062386
+      spriteID: bc9f4446ef20023488a840ecec351bf5
+      internalID: 8807969989673504854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_101
+      name: Dungeon Collectables_91
       rect:
         serializedVersion: 2
         x: 96
@@ -2562,14 +2338,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b96c293a9c4ee54439a3000622df7750
-      internalID: 4060546897201354903
+      spriteID: 3b8907657deccf544b15f837435b454b
+      internalID: -8629404192443205113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_102
+      name: Dungeon Collectables_92
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff14516e5802bb4eac6ad1ec41643d0
+      internalID: -5153863467594679520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_93
       rect:
         serializedVersion: 2
         x: 128
@@ -2583,14 +2380,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3485123ed3aa64141be0928ab8934639
-      internalID: -1824318353210508716
+      spriteID: ca9cad6483ad6b140bb691251e9d1a6b
+      internalID: -6877182683535460945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_103
+      name: Dungeon Collectables_94
       rect:
         serializedVersion: 2
         x: 144
@@ -2604,14 +2401,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e6151d990fc5454480bb3e4ba8ccf99
-      internalID: 5679421691457111198
+      spriteID: 7a4ebe99c3bc0ab4980b76de1c42fce2
+      internalID: -8292618056502113727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_104
+      name: Dungeon Collectables_95
       rect:
         serializedVersion: 2
         x: 160
@@ -2625,8 +2422,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce6c2f0858f97f4babc2a6d8abf734b
-      internalID: 4072258924830223602
+      spriteID: c524f2e5cf0cd284eadd8baed9f9e659
+      internalID: -6353224969517733235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_96
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10ca1acfbe65134ea80a81f99785d9e
+      internalID: 5291515845501891750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f0235daeed21643961843b81262b38
+      internalID: 1353957706228603669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22597c1c51fa1bc449906d9c8d60fd64
+      internalID: 2893986201217686178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a277fac453d4429ecb328b9c34770
+      internalID: 2121353441889084020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337d57518242e2a48a9975162737c414
+      internalID: 1923781133373865985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775aeb79091ad38418ed3bede64fcbd9
+      internalID: 4501600687642850218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_102
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd1e963e551af40b5e719e71fad211
+      internalID: -7328939129734232921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1a3bdde2aaf2849b29153230918138
+      internalID: -7941780829770473178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon Collectables_104
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a873e4141b50140b55cbc1fa7759d2
+      internalID: 422606482980328374
       vertices: []
       indices: 
       edges: []
@@ -2634,7 +2620,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b1996ece4ea1141f78611ff970493fab
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

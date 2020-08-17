@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2819600213430105237}
   - component: {fileID: 4405409688733228341}
   - component: {fileID: 5572765535911447769}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7524385056842286361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.33, y: 0.3516571, z: -174.65845}
+  m_LocalPosition: {x: 50.33, y: 0.3516571, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4785,8 +4785,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1343559337
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0

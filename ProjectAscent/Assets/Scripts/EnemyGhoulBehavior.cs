@@ -42,13 +42,13 @@ public class EnemyGhoulBehavior : MonoBehaviour
   {
     if (transform.position.x - player.position.x < -explosionRange)
     {
-      rb.velocity = new Vector2(speed + 2, 0);
+      rb.velocity = new Vector2(speed + 3, 0);
       transform.eulerAngles = new Vector3(0, 180, 0);
       skeletonScript.movingLeft = false;
     }
     else if (transform.position.x - player.position.x > explosionRange)
     {
-      rb.velocity = new Vector2(-(speed + 2), 0);
+      rb.velocity = new Vector2(-(speed + 3), 0);
       transform.eulerAngles = new Vector3(0, 0, 0); ;
       skeletonScript.movingLeft = true;
     }
