@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour
     // DAMAGE ENEMIES
     foreach (Collider2D enemy in damagedEnemies)
     {
-      if (enemy.tag == "EnemyProjectile")
+      if (enemy.tag == "EnemyProjectile" || enemy.tag == "SlowProjectile")
       {
         Destroy(enemy.gameObject);
       }

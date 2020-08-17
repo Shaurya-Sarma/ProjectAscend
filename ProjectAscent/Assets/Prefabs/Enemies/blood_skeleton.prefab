@@ -105,7 +105,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 70503d71a0abb4818823e52b03def6e7, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.23709965, a: 1}
+  m_Color: {r: 1, g: 0.21698111, b: 0.22510794, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.5
   rayDistance: 1.5
+  movingLeft: 1
   groundDetection: {fileID: 3921891784563000976}
   ignoreLayers:
     serializedVersion: 2

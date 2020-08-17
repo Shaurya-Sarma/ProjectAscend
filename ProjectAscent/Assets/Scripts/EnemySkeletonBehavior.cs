@@ -6,7 +6,7 @@ public class EnemySkeletonBehavior : MonoBehaviour
 {
   public float speed = 2f;
   public float rayDistance = 2f;
-  private bool movingLeft = true;
+  public bool movingLeft = true;
   public Transform groundDetection;
   public LayerMask ignoreLayers;
 
@@ -29,8 +29,4 @@ public class EnemySkeletonBehavior : MonoBehaviour
       movingLeft = !movingLeft;
     }
   }
-
-
-
-
 }

@@ -16,6 +16,16 @@ public class HealthSystem : MonoBehaviour
   public GameMaster gameMaster;
   public float slowEffect = 3.5f;
   public float speedDecrease = 3f;
+  private SpriteRenderer sr;
+  private Color originalColor;
+  private PlayerController player;
+
+  private void Start()
+  {
+    sr = gameObject.GetComponent<SpriteRenderer>();
+    originalColor = sr.material.color;
+    player = GetComponent<PlayerController>();
+  }
   private void Update()
   {
 
@@ -79,11 +89,11 @@ public class HealthSystem : MonoBehaviour
       {
         StartCoroutine(PlayerHurt());
       }
+    }
 
-      if (other.gameObject.name == "iceOrb" || other.gameObject.name == "iceOrb(Clone)")
-      {
-        StartCoroutine(PlayerSlow());
-      }
+    if (other.gameObject.tag == "SlowProjectile")
+    {
+      StartCoroutine(PlayerSlow());
     }
   }
 
@@ -104,10 +114,11 @@ public class HealthSystem : MonoBehaviour
     animator.SetLayerWeight(1, 0);
   }
 
-  private void playerDeath()
+  public void playerDeath()
   {
     GetComponent<PlayerController>().enabled = false;
     Physics2D.IgnoreLayerCollision(9, 10);
+    animator.SetBool("isJumping", false);
     animator.SetBool("isDead", true);
   }
 
@@ -122,12 +133,11 @@ public class HealthSystem : MonoBehaviour
 
   private IEnumerator PlayerSlow()
   {
-    Color originalColor = gameObject.GetComponent<SpriteRenderer>().material.color;
-    GetComponent<PlayerController>().speed -= 3;
-    gameObject.GetComponent<SpriteRenderer>().material.color = new Color(0, 0, 1.2f, 1);
+    player.speed = 3;
+    sr.material.color = new Color(0, 0, 1.2f, 1);
     yield return new WaitForSeconds(slowEffect);
-    gameObject.GetComponent<SpriteRenderer>().material.color = originalColor;
-    GetComponent<PlayerController>().speed += 3;
+    sr.material.color = originalColor;
+    player.speed = 7;
   }
 
 }

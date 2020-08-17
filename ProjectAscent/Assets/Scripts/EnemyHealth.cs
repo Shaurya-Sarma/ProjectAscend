@@ -7,23 +7,33 @@ public class EnemyHealth : MonoBehaviour
   public int maxHealth;
   private int currentHealth;
   public Animator animator;
-  // public Rigidbody2D rb;
+  private Material matWhite;
+  private Material matDefault;
+  private SpriteRenderer sr;
   private void Start()
   {
     currentHealth = maxHealth;
+    sr = GetComponent<SpriteRenderer>();
+    matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+    matDefault = sr.material;
   }
   public void takeDamage(int damage)
   {
     currentHealth -= damage;
-
     if (currentHealth <= 0)
     {
       EnemyDie();
     }
     else
     {
-      // rb.AddForce(transform.up * 100);
+      sr.material = matWhite;
+      Invoke("ResetMaterial", 0.1f);
     }
+  }
+
+  private void ResetMaterial()
+  {
+    sr.material = matDefault;
   }
 
   void EnemyDie()
