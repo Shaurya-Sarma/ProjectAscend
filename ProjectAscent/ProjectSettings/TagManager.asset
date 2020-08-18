@@ -11,6 +11,8 @@ TagManager:
   - EnemyProjectile
   - GameMaster
   - SlowProjectile
+  - Backpack
+  - Key
   layers:
   - Default
   - TransparentFX

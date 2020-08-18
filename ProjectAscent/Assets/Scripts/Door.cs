@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
   private GameMaster gm;
+  private GameObject key;
+  private bool canPlayerOpenDoor = true;
+  public bool isDoorLocked = false;
 
   private void Start()
   {
@@ -14,25 +16,51 @@ public class Door : MonoBehaviour
   }
   private void OnTriggerEnter2D(Collider2D other)
   {
+    if (isDoorLocked)
+    {
+      canPlayerOpenDoor = GameObject.FindGameObjectWithTag("Key").GetComponent<Key>().playerHasKey;
+    }
+
     if (other.tag == "Player")
     {
-      gm.DoorText.text = ("[E] To Enter");
-      if (Input.GetKeyDown(KeyCode.E))
+      if (canPlayerOpenDoor == false)
       {
-        LoadNextScene();
-
+        gm.DoorText.text = ("Door Is Locked");
       }
+      else
+      {
+        gm.DoorText.text = ("[E] To Enter");
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+          GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
+        }
+      }
+
     }
   }
 
   private void OnTriggerStay2D(Collider2D other)
   {
+
+    if (isDoorLocked)
+    {
+      canPlayerOpenDoor = GameObject.FindGameObjectWithTag("Key").GetComponent<Key>().playerHasKey;
+    }
     if (other.tag == "Player")
     {
-      if (Input.GetKeyDown(KeyCode.E))
+      if (canPlayerOpenDoor == false)
       {
-        LoadNextScene();
+        gm.DoorText.text = ("Door Is Locked");
+
       }
+      else
+      {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+          GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
+        }
+      }
+
     }
   }
 
@@ -44,9 +72,5 @@ public class Door : MonoBehaviour
     }
   }
 
-  private void LoadNextScene()
-  {
-    int SceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
-    SceneManager.LoadScene(SceneToLoad);
-  }
+
 }
