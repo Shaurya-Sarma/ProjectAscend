@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MagicOrb : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
   public float projectileSpeed = 4f;
   public Rigidbody2D rb;

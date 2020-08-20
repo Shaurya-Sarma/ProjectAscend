@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Church.unity
     guid: 6bda38dcfe2fcb7448e047f669dbf4c1
+  - enabled: 1
+    path: Assets/Scenes/AsmodeusBoss.unity
+    guid: ed157f23f74d66f4fa938827e908848d
   m_configObjects: {}

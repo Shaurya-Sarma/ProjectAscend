@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
   public int maxHealth;
-  private int currentHealth;
+  public int currentHealth;
   public Animator animator;
   private Material matWhite;
   private Material matDefault;
@@ -39,7 +39,6 @@ public class EnemyHealth : MonoBehaviour
   void EnemyDie()
   {
     animator.SetBool("IsDead", true);
-    // rb.bodyType = RigidbodyType2D.Kinematic;
     GetComponent<BoxCollider2D>().enabled = false;
     this.enabled = false;
   }

@@ -59,15 +59,8 @@ public class HealthSystem : MonoBehaviour
   {
     if (other.gameObject.tag == "EnemyDamage")
     {
-      health--;
-      if (health <= 0)
-      {
-        playerDeath();
-      }
-      else
-      {
-        StartCoroutine(PlayerHurt());
-      }
+      takeDamage();
+
     }
     if (other.gameObject.tag == "Obstacle")
     {
@@ -80,15 +73,7 @@ public class HealthSystem : MonoBehaviour
   {
     if (other.gameObject.tag == "EnemyProjectile")
     {
-      health--;
-      if (health <= 0)
-      {
-        playerDeath();
-      }
-      else
-      {
-        StartCoroutine(PlayerHurt());
-      }
+      takeDamage();
     }
 
     if (other.gameObject.tag == "SlowProjectile")
@@ -97,6 +82,18 @@ public class HealthSystem : MonoBehaviour
     }
   }
 
+  public void takeDamage()
+  {
+    health--;
+    if (health <= 0)
+    {
+      playerDeath();
+    }
+    else
+    {
+      StartCoroutine(PlayerHurt());
+    }
+  }
   private IEnumerator PlayerHurt()
   {
     //IGNORE COLLISIONS WITH OTHER ENEMIES
