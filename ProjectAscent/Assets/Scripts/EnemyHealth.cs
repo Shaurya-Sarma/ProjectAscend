@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
     else
     {
       sr.material = matWhite;
-      Invoke("ResetMaterial", 0.1f);
+      Invoke("ResetMaterial", 0.2f);
     }
   }
 
@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour
     sr.material = matDefault;
   }
 
-  void EnemyDie()
+  public void EnemyDie()
   {
     animator.SetBool("IsDead", true);
     GetComponent<BoxCollider2D>().enabled = false;

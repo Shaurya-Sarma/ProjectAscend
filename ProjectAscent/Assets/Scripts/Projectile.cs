@@ -14,6 +14,14 @@ public class Projectile : MonoBehaviour
     target = GameObject.FindGameObjectWithTag("Player");
     moveDirection = (target.transform.position - this.transform.position).normalized * projectileSpeed;
     rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
+    if (transform.position.x > target.transform.position.x)
+    {
+      transform.eulerAngles = new Vector3(0, 0, 0);
+    }
+    else if (transform.position.x < target.transform.position.x)
+    {
+      transform.eulerAngles = new Vector3(0, 180, 0);
+    }
     Destroy(gameObject, 3f);
   }
 

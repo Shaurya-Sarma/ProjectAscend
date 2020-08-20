@@ -11,18 +11,20 @@ public class BossIdle : StateMachineBehaviour
   public float attackRange = 3.5f;
   private AsmodeusBehavior boss;
   private int meleeCounter = 0;
+  private int rangedCounter = 0;
   private bool isEnraged = false;
   private EnemyHealth bossHealth;
-  public GameObject enragedEffect;
-
+  private BoxCollider2D col;
   // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
   override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
   {
     player = GameObject.FindGameObjectWithTag("Player").transform;
     rb = animator.GetComponent<Rigidbody2D>();
     boss = animator.GetComponent<AsmodeusBehavior>();
-    animator.GetComponent<BoxCollider2D>().enabled = true;
     bossHealth = animator.GetComponent<EnemyHealth>();
+    col = animator.GetComponent<BoxCollider2D>();
+
+    col.enabled = true;
   }
 
   // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -40,13 +42,22 @@ public class BossIdle : StateMachineBehaviour
       meleeCounter++;
     }
 
-    Debug.Log(meleeCounter);
 
     if (meleeCounter >= 3)
     {
       animator.SetTrigger("Shoot");
       meleeCounter = 0;
+      rangedCounter++;
     }
+
+    if (rangedCounter >= 2 && isEnraged)
+    {
+      animator.SetTrigger("Summon");
+      rangedCounter = 0;
+    }
+
+    Debug.Log(rangedCounter);
+
 
     if (bossHealth.currentHealth <= 50 && !isEnraged)
     {
@@ -54,8 +65,10 @@ public class BossIdle : StateMachineBehaviour
       speed = 3.5f;
     }
 
-
-
+    if (bossHealth.currentHealth <= 0)
+    {
+      bossHealth.EnemyDie();
+    }
 
 
   }
