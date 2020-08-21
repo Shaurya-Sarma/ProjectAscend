@@ -13,6 +13,7 @@ TagManager:
   - SlowProjectile
   - Backpack
   - Key
+  - Text
   layers:
   - Default
   - TransparentFX

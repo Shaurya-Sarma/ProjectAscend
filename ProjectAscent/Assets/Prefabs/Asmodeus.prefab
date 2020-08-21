@@ -172,11 +172,9 @@ MonoBehaviour:
   attackPoint: {fileID: 2875064142221970310}
   projectile: {fileID: 6814519031583201309, guid: d2e4022efd24c924fa049a759de7a40e,
     type: 3}
-  skeletonSpawnPoints:
-  - {fileID: 0}
-  - {fileID: 0}
   skeleton: {fileID: 1635706590461159951, guid: 70de6ffcfb460ac4393b2781a988ce6b,
     type: 3}
+  door: {fileID: 2957860753968027296, guid: dedb612937f17f0439932ae843e08394, type: 3}
 --- !u!114 &2772403550844680200
 MonoBehaviour:
   m_ObjectHideFlags: 0

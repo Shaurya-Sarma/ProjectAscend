@@ -22,6 +22,10 @@ public class EnemyHealth : MonoBehaviour
     currentHealth -= damage;
     if (currentHealth <= 0)
     {
+      if (this.name == "Asmodeus(Clone)")
+      {
+        GetComponent<AsmodeusBehavior>().SpawnDoor();
+      }
       EnemyDie();
     }
     else

@@ -16,6 +16,12 @@ public class GameMaster : MonoBehaviour
     }
     Vector3 respawnPoint = GameObject.FindGameObjectWithTag("Respawn").transform.position;
     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(respawnPoint.x, respawnPoint.y, respawnPoint.z);
+
+    foreach (var text in GameObject.FindGameObjectsWithTag("Text"))
+    {
+      text.GetComponent<Renderer>().sortingLayerName = "Base";
+
+    }
   }
 
   public void RestartGame()

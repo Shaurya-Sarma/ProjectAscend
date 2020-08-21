@@ -14,7 +14,7 @@ public class AsmodeusBehavior : MonoBehaviour
   public GameObject skeleton;
   private Transform SpawnPointOne;
   private Transform SpawnPointTwo;
-
+  public GameObject door;
   private void Start()
   {
     player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -22,6 +22,7 @@ public class AsmodeusBehavior : MonoBehaviour
     col = GetComponent<BoxCollider2D>();
     SpawnPointOne = GameObject.Find("SpawnPointOne").transform;
     SpawnPointTwo = GameObject.Find("SpawnPointTwo").transform;
+
 
   }
   public void LookAtPlayer()
@@ -52,10 +53,14 @@ public class AsmodeusBehavior : MonoBehaviour
 
   public void SummonEnemies()
   {
-    Instantiate(skeleton, SpawnPointOne);
-    Instantiate(skeleton, SpawnPointTwo);
+    Instantiate(skeleton, SpawnPointOne.position, Quaternion.identity);
+    Instantiate(skeleton, SpawnPointTwo.position, Quaternion.identity);
   }
 
+  public void SpawnDoor()
+  {
+    Instantiate(door, SpawnPointTwo.position, Quaternion.identity);
+  }
 
   private void OnDrawGizmosSelected()
   {

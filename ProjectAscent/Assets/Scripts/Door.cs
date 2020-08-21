@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Door : MonoBehaviour
 {
   private GameMaster gm;
-  private GameObject key;
-  private bool canPlayerOpenDoor = true;
+  public bool canPlayerOpenDoor = true;
   public bool isDoorLocked = false;
 
   private void Start()

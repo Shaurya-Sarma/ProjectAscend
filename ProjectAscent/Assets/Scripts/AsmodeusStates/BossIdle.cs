@@ -15,7 +15,6 @@ public class BossIdle : StateMachineBehaviour
   private bool isEnraged = false;
   private EnemyHealth bossHealth;
   private BoxCollider2D col;
-  // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
   override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
   {
     player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -24,10 +23,10 @@ public class BossIdle : StateMachineBehaviour
     bossHealth = animator.GetComponent<EnemyHealth>();
     col = animator.GetComponent<BoxCollider2D>();
 
+
     col.enabled = true;
   }
 
-  // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
   override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
   {
     boss.LookAtPlayer();
@@ -56,8 +55,6 @@ public class BossIdle : StateMachineBehaviour
       rangedCounter = 0;
     }
 
-    Debug.Log(rangedCounter);
-
 
     if (bossHealth.currentHealth <= 50 && !isEnraged)
     {
@@ -65,29 +62,12 @@ public class BossIdle : StateMachineBehaviour
       speed = 3.5f;
     }
 
-    if (bossHealth.currentHealth <= 0)
-    {
-      bossHealth.EnemyDie();
-    }
-
 
   }
 
-  // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
   override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
   {
     animator.ResetTrigger("Attack");
   }
 
-  // OnStateMove is called right after Animator.OnAnimatorMove()
-  //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-  //{
-  //    // Implement code that processes and affects root motion
-  //}
-
-  // OnStateIK is called right after Animator.OnAnimatorIK()
-  //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-  //{
-  //    // Implement code that sets up animation IK (inverse kinematics)
-  //}
 }
