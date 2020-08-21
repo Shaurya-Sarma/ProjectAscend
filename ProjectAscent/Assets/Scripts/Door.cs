@@ -24,11 +24,11 @@ public class Door : MonoBehaviour
     {
       if (canPlayerOpenDoor == false)
       {
-        gm.DoorText.text = ("Door Is Locked");
+        gm.InteractText.text = ("Door Is Locked");
       }
       else
       {
-        gm.DoorText.text = ("[E] To Enter");
+        gm.InteractText.text = ("[E] To Enter");
         if (Input.GetKeyDown(KeyCode.E))
         {
           GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
@@ -49,7 +49,7 @@ public class Door : MonoBehaviour
     {
       if (canPlayerOpenDoor == false)
       {
-        gm.DoorText.text = ("Door Is Locked");
+        gm.InteractText.text = ("Door Is Locked");
 
       }
       else
@@ -67,7 +67,7 @@ public class Door : MonoBehaviour
   {
     if (other.tag == "Player")
     {
-      gm.DoorText.text = (" ");
+      gm.InteractText.text = (" ");
     }
   }
 

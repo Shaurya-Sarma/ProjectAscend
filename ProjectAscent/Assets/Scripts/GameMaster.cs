@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour
 {
-  public Text DoorText;
+  public Text InteractText;
   public static GameMaster gm;
   private void Start()
   {

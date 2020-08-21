@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159149363701522878}
   - component: {fileID: 2497563763064253495}
+  - component: {fileID: 6293194277705796956}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: GameMaster
@@ -44,7 +45,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42a81711fcec7b4cb68d89de2a59b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorText: {fileID: 0}
+  InteractText: {fileID: 0}
+--- !u!114 &6293194277705796956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893301578296253990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6357e5a73a365c439bc5cc6e03c5b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameText: {fileID: 0}
+  DialogueText: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1001 &5195290646956947250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60,12 +76,12 @@ PrefabInstance:
     - target: {fileID: 2252412717708927644, guid: 5c8e0323897ccdb429275495479daed8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -305.75
+      value: -304.72
       objectReference: {fileID: 0}
     - target: {fileID: 2252412717708927644, guid: 5c8e0323897ccdb429275495479daed8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -93.6
+      value: -93.47
       objectReference: {fileID: 0}
     - target: {fileID: 2252412717708927644, guid: 5c8e0323897ccdb429275495479daed8,
         type: 3}
