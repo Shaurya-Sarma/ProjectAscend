@@ -7,22 +7,47 @@ using UnityEngine.SceneManagement;
 public class GameMaster : MonoBehaviour
 {
   public Text InteractText;
-  public static GameMaster gm;
-  private void Start()
+  private static GameMaster instance;
+  public Vector2 lastRespawnPointPos;
+  private void Awake()
   {
-    if (!gm)
+    if (instance == null)
     {
-      gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+      instance = this;
+      DontDestroyOnLoad(instance);
     }
-    Vector3 respawnPoint = GameObject.FindGameObjectWithTag("Respawn").transform.position;
-    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(respawnPoint.x, respawnPoint.y, respawnPoint.z);
+    else
+    {
+      Destroy(gameObject);
+    }
 
     foreach (var text in GameObject.FindGameObjectsWithTag("Text"))
     {
       text.GetComponent<Renderer>().sortingLayerName = "Base";
-
     }
   }
+
+  // private void OnEnable()
+  // {
+  //   SceneManager.sceneLoaded += OnSceneLoaded;
+  // }
+
+  // void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+  // {
+
+  //   if (SceneManager.GetActiveScene().name == "Graveyard" && lastRespawnPointPos == new Vector2(0, 0))
+  //   {
+  //     lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
+  //   }
+  //   else if (SceneManager.GetActiveScene().name == "Church" && lastRespawnPointPos == new Vector2(0, 0))
+  //   {
+  //     lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
+  //   }
+  //   else if (SceneManager.GetActiveScene().name == "AsmodeusBoss" && lastRespawnPointPos == new Vector2(-100000, 100000))
+  //   {
+  //     lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
+  //   }
+  // }
 
   public void RestartGame()
   {

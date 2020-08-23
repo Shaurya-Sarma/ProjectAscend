@@ -15,6 +15,7 @@ TagManager:
   - Key
   - Text
   - NPC
+  - Hearts
   layers:
   - Default
   - TransparentFX

@@ -13,7 +13,7 @@ public class HealthSystem : MonoBehaviour
   public Sprite emptyHeart;
   public Animator animator;
   public float invincibleTime = 2f;
-  public GameMaster gameMaster;
+  private GameMaster gm;
   public float slowEffect = 3.5f;
   public float speedDecrease = 3f;
   private SpriteRenderer sr;
@@ -25,10 +25,11 @@ public class HealthSystem : MonoBehaviour
     sr = gameObject.GetComponent<SpriteRenderer>();
     originalColor = sr.material.color;
     player = GetComponent<PlayerController>();
+    gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+
   }
   private void Update()
   {
-
     if (health > numOfHearts)
     {
       health = numOfHearts;
@@ -121,7 +122,7 @@ public class HealthSystem : MonoBehaviour
 
   private void RespawnPlayer()
   {
-    gameMaster.RestartGame();
+    gm.RestartGame();
     health = numOfHearts;
     animator.SetBool("isDead", false);
     GetComponent<PlayerController>().enabled = true;

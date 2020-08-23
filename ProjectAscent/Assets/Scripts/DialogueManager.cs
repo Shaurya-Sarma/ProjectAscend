@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
   private void Start()
   {
     sentences = new Queue<string>();
+
   }
 
   public void StartDialogue(Dialogue dialogue)

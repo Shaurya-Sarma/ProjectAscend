@@ -23,10 +23,13 @@ public class PlayerController : MonoBehaviour
   private float jumpBufferCounter;
   public float attackTimer = 0.8f;
   private float attackCounter;
+  private GameMaster gm;
 
   private void Start()
   {
     rb = GetComponent<Rigidbody2D>();
+    gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+    transform.position = gm.lastRespawnPointPos + new Vector2(0, 1f);
   }
 
   private void Update()
