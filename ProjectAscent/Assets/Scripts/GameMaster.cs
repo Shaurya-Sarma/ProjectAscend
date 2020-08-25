@@ -27,27 +27,27 @@ public class GameMaster : MonoBehaviour
     }
   }
 
-  // private void OnEnable()
-  // {
-  //   SceneManager.sceneLoaded += OnSceneLoaded;
-  // }
+  private void OnEnable()
+  {
+    SceneManager.sceneLoaded += OnSceneLoaded;
+  }
 
-  // void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-  // {
+  void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+  {
 
-  //   if (SceneManager.GetActiveScene().name == "Graveyard" && lastRespawnPointPos == new Vector2(0, 0))
-  //   {
-  //     lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
-  //   }
-  //   else if (SceneManager.GetActiveScene().name == "Church" && lastRespawnPointPos == new Vector2(0, 0))
-  //   {
-  //     lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
-  //   }
-  //   else if (SceneManager.GetActiveScene().name == "AsmodeusBoss" && lastRespawnPointPos == new Vector2(-100000, 100000))
-  //   {
-  //     lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
-  //   }
-  // }
+    if (SceneManager.GetActiveScene().name == "Graveyard" && lastRespawnPointPos == new Vector2(0, 0))
+    {
+      lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
+    }
+    else if (SceneManager.GetActiveScene().name == "Church" && lastRespawnPointPos == new Vector2(0, 0))
+    {
+      lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
+    }
+    else if (SceneManager.GetActiveScene().name == "AsmodeusBoss" && lastRespawnPointPos == new Vector2(-100000, 100000))
+    {
+      lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
+    }
+  }
 
   public void RestartGame()
   {

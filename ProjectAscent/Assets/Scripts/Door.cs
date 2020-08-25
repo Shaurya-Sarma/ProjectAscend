@@ -31,7 +31,10 @@ public class Door : MonoBehaviour
         gm.InteractText.text = ("[E] To Enter");
         if (Input.GetKeyDown(KeyCode.E))
         {
+          gm.lastRespawnPointPos = new Vector2(0, 0);
+          gm.InteractText.text = (" ");
           GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
+
         }
       }
 
@@ -56,6 +59,8 @@ public class Door : MonoBehaviour
       {
         if (Input.GetKeyDown(KeyCode.E))
         {
+          gm.lastRespawnPointPos = new Vector2(0, 0);
+          gm.InteractText.text = (" ");
           GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
         }
       }

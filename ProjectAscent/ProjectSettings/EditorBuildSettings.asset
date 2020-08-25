@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AsmodeusBoss.unity
     guid: ed157f23f74d66f4fa938827e908848d
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 61875a0a94cb4c14ba0a946fd7f29bf1
   m_configObjects: {}
