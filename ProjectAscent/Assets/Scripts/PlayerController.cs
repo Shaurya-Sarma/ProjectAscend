@@ -102,6 +102,7 @@ public class PlayerController : MonoBehaviour
   void PlayerAttack()
   {
     // PLAY ATTACK ANIMATION
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("PlayerAttack");
     animator.SetTrigger("Attack");
   }
 

@@ -97,6 +97,7 @@ public class HealthSystem : MonoBehaviour
   }
   private IEnumerator PlayerHurt()
   {
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Hurt");
     //IGNORE COLLISIONS WITH OTHER ENEMIES
     int enemyLayer = LayerMask.NameToLayer("Enemies");
     int playerLayer = LayerMask.NameToLayer("Player");
@@ -114,6 +115,7 @@ public class HealthSystem : MonoBehaviour
 
   public void playerDeath()
   {
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Death");
     GetComponent<PlayerController>().enabled = false;
     Physics2D.IgnoreLayerCollision(9, 10);
     animator.SetBool("isJumping", false);

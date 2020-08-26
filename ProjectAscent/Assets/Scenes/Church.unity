@@ -24732,7 +24732,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909376078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5170431, y: 0.1309961, z: -10}
+  m_LocalPosition: {x: -2.292572, y: 0.1309961, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 311377874}
@@ -48943,7 +48943,7 @@ PrefabInstance:
     - target: {fileID: 159149363701522878, guid: 20afa517d521357439e219173925559b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 159149363701522878, guid: 20afa517d521357439e219173925559b,
         type: 3}
@@ -48959,36 +48959,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2497563763064253495, guid: 20afa517d521357439e219173925559b,
-        type: 3}
-      propertyPath: InteractText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2497563763064253495, guid: 20afa517d521357439e219173925559b,
-        type: 3}
-      propertyPath: lastRespawnPointPos.x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2497563763064253495, guid: 20afa517d521357439e219173925559b,
-        type: 3}
-      propertyPath: lastRespawnPointPos.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6293194277705796956, guid: 20afa517d521357439e219173925559b,
-        type: 3}
-      propertyPath: NameText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6293194277705796956, guid: 20afa517d521357439e219173925559b,
-        type: 3}
-      propertyPath: DialogueText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6293194277705796956, guid: 20afa517d521357439e219173925559b,
-        type: 3}
-      propertyPath: animator
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8893301578296253990, guid: 20afa517d521357439e219173925559b,
         type: 3}

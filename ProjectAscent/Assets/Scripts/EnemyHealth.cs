@@ -30,6 +30,7 @@ public class EnemyHealth : MonoBehaviour
     }
     else
     {
+      GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Hurt");
       sr.material = matWhite;
       Invoke("ResetMaterial", 0.2f);
     }
@@ -42,6 +43,7 @@ public class EnemyHealth : MonoBehaviour
 
   public void EnemyDie()
   {
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Death");
     animator.SetBool("IsDead", true);
     GetComponent<BoxCollider2D>().enabled = false;
     this.enabled = false;

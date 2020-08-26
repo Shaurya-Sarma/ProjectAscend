@@ -18,8 +18,12 @@ public class Key : MonoBehaviour
   {
     if (other.tag == "Player")
     {
-      spring.enabled = true;
-      playerHasKey = true;
+      if (spring.enabled == false)
+      {
+        spring.enabled = true;
+        playerHasKey = true;
+        GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Pickup");
+      }
     }
   }
 }

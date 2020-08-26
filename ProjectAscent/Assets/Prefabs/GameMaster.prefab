@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 159149363701522878}
   - component: {fileID: 2497563763064253495}
   - component: {fileID: 6293194277705796956}
+  - component: {fileID: 2517576870057644491}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: GameMaster
@@ -62,6 +63,55 @@ MonoBehaviour:
   NameText: {fileID: 7011899459388998315}
   DialogueText: {fileID: 6090191414501950501}
   animator: {fileID: 6067761123112883426}
+--- !u!114 &2517576870057644491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893301578296253990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65673cff3af43bc4a98e3d332e2dbfe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Death
+    clip: {fileID: 8300000, guid: a81460c5f9fa75a41bfaeb9f9841e638, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: cabd1d573b8b2614592b9785873fb41a, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: OpenDoor
+    clip: {fileID: 8300000, guid: 1cf7240f6d1794244858f5ad6e93ca77, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: 9337cc10bcf335641a9a2fa37aa0c1c5, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerAttack
+    clip: {fileID: 8300000, guid: 32f2f78c944f45843bb0933acf3cf635, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 117ec25160321e84cb0c2a280df39383, type: 3}
+    volume: 0.01
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!1001 &5632299369583116201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78,6 +128,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Text UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376250752789202815, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376250752789202815, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376250752789202815, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2949629062107662045, guid: d778718dca8f4614d8a4c30c4a2a68f3,
         type: 3}
@@ -183,6 +248,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281664345488778279, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281664345488778279, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627229358348478117, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627229358348478117, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627229358348478117, guid: d778718dca8f4614d8a4c30c4a2a68f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d778718dca8f4614d8a4c30c4a2a68f3, type: 3}

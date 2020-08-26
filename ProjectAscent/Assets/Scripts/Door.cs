@@ -33,6 +33,7 @@ public class Door : MonoBehaviour
         {
           gm.lastRespawnPointPos = new Vector2(0, 0);
           gm.InteractText.text = (" ");
+          GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("OpenDoor");
           GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
 
         }
@@ -61,6 +62,7 @@ public class Door : MonoBehaviour
         {
           gm.lastRespawnPointPos = new Vector2(0, 0);
           gm.InteractText.text = (" ");
+          GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("OpenDoor");
           GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
         }
       }
