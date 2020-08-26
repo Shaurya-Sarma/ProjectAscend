@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
   public Text DialogueText;
   private Queue<string> sentences;
   public Animator animator;
+  private Animator soulAnimator = null;
 
   private void Start()
   {
@@ -54,6 +55,16 @@ public class DialogueManager : MonoBehaviour
   private void EndDialog()
   {
     animator.SetBool("IsOpen", false);
+    if (soulAnimator != null)
+    {
+      soulAnimator.SetTrigger("Death");
+      soulAnimator = null;
+    }
+  }
+
+  public void FindSoulAnimator(Animator anim)
+  {
+    soulAnimator = anim;
   }
 
 }

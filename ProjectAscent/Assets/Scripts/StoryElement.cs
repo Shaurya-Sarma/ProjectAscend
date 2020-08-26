@@ -18,6 +18,7 @@ public class StoryElement : MonoBehaviour
     gm.InteractText.text = (" ");
     col.enabled = false;
     FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+    FindObjectOfType<DialogueManager>().FindSoulAnimator(this.name == "Soul" ? GetComponent<Animator>() : null);
   }
 
   private void OnTriggerEnter2D(Collider2D other)
