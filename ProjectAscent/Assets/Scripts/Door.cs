@@ -8,6 +8,7 @@ public class Door : MonoBehaviour
   private GameMaster gm;
   public bool canPlayerOpenDoor = true;
   public bool isDoorLocked = false;
+  public bool wasRecentlyOpened = false;
 
   private void Start()
   {
@@ -35,7 +36,6 @@ public class Door : MonoBehaviour
           gm.InteractText.text = (" ");
           GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("OpenDoor");
           GameObject.Find("LevelTransition").GetComponent<LevelTransition>().FadeToNextLevel();
-
         }
       }
 

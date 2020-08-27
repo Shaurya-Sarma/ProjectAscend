@@ -1333,9 +1333,33 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Theme
     clip: {fileID: 8300000, guid: 117ec25160321e84cb0c2a280df39383, type: 3}
-    volume: 0.02
+    volume: 0.025
     pitch: 1
     loop: 1
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: ce936c1bcd867cc4ab287f8242bba837, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 0a46b6c186509314a9139b18b359af7a, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: 1e84309693dc81f4e926ad1d31bdb6e5, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dialogue
+    clip: {fileID: 8300000, guid: 5e541b9465694da4ca484a25890aa52a, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!1001 &5632299369583116201
 PrefabInstance:

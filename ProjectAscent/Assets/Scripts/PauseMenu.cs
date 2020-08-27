@@ -53,6 +53,8 @@ public class PauseMenu : MonoBehaviour
 
   public void Quit()
   {
+    GameObject.FindObjectOfType<GameMaster>().SavePlayer();
+    Debug.Log("SAVED");
     Application.Quit();
   }
 
