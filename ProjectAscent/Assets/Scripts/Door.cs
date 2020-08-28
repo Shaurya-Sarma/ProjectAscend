@@ -30,7 +30,7 @@ public class Door : MonoBehaviour
       else
       {
         gm.InteractText.text = ("[E] To Enter");
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetButtonDown("Interact"))
         {
           gm.lastRespawnPointPos = new Vector2(0, 0);
           gm.InteractText.text = (" ");
@@ -58,7 +58,7 @@ public class Door : MonoBehaviour
       }
       else
       {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetButtonDown("Interact"))
         {
           gm.lastRespawnPointPos = new Vector2(0, 0);
           gm.InteractText.text = (" ");

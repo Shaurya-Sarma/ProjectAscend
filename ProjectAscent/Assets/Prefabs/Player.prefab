@@ -91,7 +91,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3206287796686064219}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.28, y: -2, z: 0}
+  m_LocalPosition: {x: -8.28, y: -2.04, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 3206287795383284786}
@@ -184,8 +184,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   jumpForce: 10
+  maxJumps: 1
   feetPos: {fileID: 3206287795383284786}
-  checkRadius: 0.3
+  checkRadius: 0.42
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
@@ -196,7 +197,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  jumpBufferTime: 0.2
+  jumpBufferTime: 0.1
   attackTimer: 0.6
 --- !u!95 &3206287796686064213
 Animator:
@@ -230,7 +231,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.002780199, y: -0.2}
+  m_Offset: {x: -0.006511301, y: -0.21846238}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -241,7 +242,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1405711, y: 1.68}
+  m_Size: {x: 0.7899062, y: 1.5677056}
   m_EdgeRadius: 0.1
 --- !u!114 &3206287796686064212
 MonoBehaviour:

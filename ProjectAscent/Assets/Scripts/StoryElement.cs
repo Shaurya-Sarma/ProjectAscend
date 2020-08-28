@@ -26,7 +26,7 @@ public class StoryElement : MonoBehaviour
     if (other.tag == "Player")
     {
       gm.InteractText.text = ("Press [E] To Talk");
-      if (Input.GetKeyDown(KeyCode.E))
+      if (Input.GetButtonDown("Interact"))
       {
         TriggerDialogue();
       }
@@ -38,7 +38,7 @@ public class StoryElement : MonoBehaviour
     if (other.tag == "Player")
     {
       gm.InteractText.text = ("Press [E] To Talk");
-      if (Input.GetKeyDown(KeyCode.E))
+      if (Input.GetButtonDown("Interact"))
       {
         TriggerDialogue();
       }

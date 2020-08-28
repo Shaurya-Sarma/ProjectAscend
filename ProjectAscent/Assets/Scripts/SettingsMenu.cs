@@ -5,14 +5,14 @@ using UnityEngine.Audio;
 
 public class SettingsMenu : MonoBehaviour
 {
-  public void SetVolume(bool isMute)
+  public void SetVolume(bool isOn)
   {
-    AudioListener.pause = isMute;
+    AudioListener.pause = !isOn;
   }
 
   public void SetQuality(int index)
   {
-    QualitySettings.SetQualityLevel(index + 2);
+    QualitySettings.SetQualityLevel(index);
     Debug.Log("helo");
 
   }

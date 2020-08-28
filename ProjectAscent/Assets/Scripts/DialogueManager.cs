@@ -31,7 +31,6 @@ public class DialogueManager : MonoBehaviour
 
   public void DisplayNextSentence()
   {
-    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Dialogue");
     if (sentences.Count == 0)
     {
       EndDialog();

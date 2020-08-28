@@ -115,7 +115,6 @@ public class HealthSystem : MonoBehaviour
 
   public void playerDeath()
   {
-    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("PlayerDeath");
     GetComponent<PlayerController>().enabled = false;
     Physics2D.IgnoreLayerCollision(9, 10);
     animator.SetBool("isJumping", false);

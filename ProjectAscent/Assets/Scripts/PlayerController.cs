@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
   private Rigidbody2D rb;
   public float speed;
   public float jumpForce;
+  private int jumpCounter = 0;
+  public int maxJumps = 1;
   private float playerInput;
   private bool isGrounded;
   public Transform feetPos;
@@ -19,17 +21,19 @@ public class PlayerController : MonoBehaviour
   public Transform attackPoint;
   public float attackRange;
   public LayerMask enemyLayers;
-  public float jumpBufferTime = 0.2f;
+  public float jumpBufferTime = 0.1f;
   private float jumpBufferCounter;
   public float attackTimer = 0.8f;
   private float attackCounter;
   private GameMaster gm;
+  public float slopeFriction;
 
   private void Start()
   {
     rb = GetComponent<Rigidbody2D>();
     gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     transform.position = gm.lastRespawnPointPos + new Vector2(0, 1f);
+    jumpCounter = maxJumps;
   }
 
   private void Update()
@@ -48,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
     //* PLAYER JUMP
 
-    if (jumpBufferCounter > 0 && Input.GetKeyDown(KeyCode.Space))
+    if (jumpBufferCounter > 0 && Input.GetButtonDown("Jump"))
     {
       isJumping = true;
       animator.SetBool("isJumping", true);
@@ -67,7 +71,7 @@ public class PlayerController : MonoBehaviour
       jumpBufferCounter -= Time.deltaTime;
     }
 
-    if (Input.GetKey(KeyCode.Space))
+    if (Input.GetButton("Jump"))
     {
       if (jumpTimeCounter > 0 && isJumping)
       {
@@ -81,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
       }
     }
-    if (Input.GetKeyUp(KeyCode.Space))
+    if (Input.GetButtonUp("Jump"))
     {
       isJumping = false;
       animator.SetBool("isJumping", false);
@@ -91,7 +95,7 @@ public class PlayerController : MonoBehaviour
     //* PLAYER MELEE
 
     // LEFT MOUSE BUTTON CLICK
-    if (Input.GetKey(KeyCode.Q) && Time.time > attackCounter)
+    if (Input.GetButtonDown("Attack") && Time.time > attackCounter)
     {
       attackCounter = Time.time + attackTimer;
       PlayerAttack();
@@ -130,13 +134,42 @@ public class PlayerController : MonoBehaviour
     {
       return;
     }
+    if (feetPos == null)
+    {
+      return;
+    }
     Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    Gizmos.DrawWireSphere(feetPos.position, checkRadius);
+
   }
   private void FixedUpdate()
   {
     playerInput = Input.GetAxisRaw("Horizontal");
     rb.velocity = new Vector2(playerInput * speed, rb.velocity.y);
     animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+    NormalizeSlope();
+  }
+
+  void NormalizeSlope()
+  {
+    // Attempt vertical normalization
+    if (isGrounded)
+    {
+      RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 2f, whatIsGround);
+
+      if (hit.collider != null && Mathf.Abs(hit.normal.x) > 0.1f)
+      {
+        Rigidbody2D body = GetComponent<Rigidbody2D>();
+        // Apply the opposite force against the slope force 
+        // You will need to provide your own slopeFriction to stabalize movement
+        body.velocity = new Vector2(body.velocity.x - (hit.normal.x * slopeFriction), body.velocity.y);
+
+        //Move Player up or down to compensate for the slope below them
+        Vector3 pos = transform.position;
+        pos.y += -hit.normal.x * Mathf.Abs(body.velocity.x) * Time.deltaTime * (body.velocity.x - hit.normal.x > 0 ? 1 : -1);
+        transform.position = pos;
+      }
+    }
   }
 
   private void OnCollisionEnter2D(Collision2D other)

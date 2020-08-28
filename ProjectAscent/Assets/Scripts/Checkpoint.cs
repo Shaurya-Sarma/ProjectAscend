@@ -24,10 +24,11 @@ public class Checkpoint : MonoBehaviour
       if (!isActivated)
       {
         gm.InteractText.text = ("Press [E] To Ignite");
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetButtonDown("Interact"))
         {
           gm.lastRespawnPointPos = transform.position;
           isActivated = true;
+          gm.GetComponent<AudioManager>().Play("Ignite");
           Instantiate(activatedEffect, (this.transform.position + new Vector3(0, 0.75f, 0)), Quaternion.identity);
         }
       }
@@ -50,10 +51,11 @@ public class Checkpoint : MonoBehaviour
       if (!isActivated)
       {
         gm.InteractText.text = ("Press [E] To Ignite");
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetButtonDown("Interact"))
         {
           gm.lastRespawnPointPos = transform.position;
           isActivated = true;
+          gm.GetComponent<AudioManager>().Play("Ignite");
           Instantiate(activatedEffect, (this.transform.position + new Vector3(0, 0.75f, 0)), Quaternion.identity);
         }
       }

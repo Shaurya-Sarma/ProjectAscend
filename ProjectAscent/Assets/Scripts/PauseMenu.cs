@@ -19,7 +19,7 @@ public class PauseMenu : MonoBehaviour
   }
   private void Update()
   {
-    if (Input.GetKeyDown(KeyCode.Escape))
+    if (Input.GetButtonDown("Pause"))
     {
       if (isPaused)
       {
@@ -27,6 +27,7 @@ public class PauseMenu : MonoBehaviour
       }
       else
       {
+        GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Click");
         Pause();
       }
     }
@@ -34,6 +35,7 @@ public class PauseMenu : MonoBehaviour
 
   public void Resume()
   {
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Click");
     pauseMenuUI.SetActive(false);
     Time.timeScale = 1f;
     isPaused = false;
@@ -53,8 +55,8 @@ public class PauseMenu : MonoBehaviour
 
   public void Quit()
   {
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("Click");
     GameObject.FindObjectOfType<GameMaster>().SavePlayer();
-    Debug.Log("SAVED");
     Application.Quit();
   }
 
