@@ -94,7 +94,6 @@ public class PlayerController : MonoBehaviour
 
     //* PLAYER MELEE
 
-    // LEFT MOUSE BUTTON CLICK
     if (Input.GetButtonDown("Attack") && Time.time > attackCounter)
     {
       attackCounter = Time.time + attackTimer;
@@ -106,12 +105,12 @@ public class PlayerController : MonoBehaviour
   void PlayerAttack()
   {
     // PLAY ATTACK ANIMATION
-    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("PlayerAttack");
     animator.SetTrigger("Attack");
   }
 
   public void attackEnemies()
   {
+    GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioManager>().Play("PlayerAttack");
     // DETECT ENEMIES IN RANGE OF ATTACK
     Collider2D[] damagedEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
     // DAMAGE ENEMIES

@@ -9,7 +9,7 @@ public class GameMaster : MonoBehaviour
   public Text InteractText;
   private static GameMaster instance;
   public Vector2 lastRespawnPointPos;
-  private int loadedSceneCounter = 0;
+  public int loadedSceneCounter = 0;
   private void Awake()
   {
     if (instance == null)
@@ -28,7 +28,6 @@ public class GameMaster : MonoBehaviour
     }
   }
 
-
   private void OnEnable()
   {
     SceneManager.sceneLoaded += OnSceneLoaded;
@@ -40,7 +39,6 @@ public class GameMaster : MonoBehaviour
     if (SceneManager.GetActiveScene().name == "Graveyard" && lastRespawnPointPos == new Vector2(0, 0))
     {
       lastRespawnPointPos = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
-
     }
     else if (SceneManager.GetActiveScene().name == "Church" && lastRespawnPointPos == new Vector2(0, 0))
     {
@@ -61,7 +59,6 @@ public class GameMaster : MonoBehaviour
 
   public void RestartGame()
   {
-    //TODO SHOW GAME OVER SCREEN
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
 
@@ -82,6 +79,14 @@ public class GameMaster : MonoBehaviour
       lastRespawnPointPos.y = data.position[1];
     }
 
+
+
+  }
+
+  public void HardResetGame()
+  {
+    loadedSceneCounter = 0;
+    SaveSystem.HardResetGame();
   }
 
 }

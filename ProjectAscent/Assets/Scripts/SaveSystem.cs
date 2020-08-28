@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
+using UnityEngine.SceneManagement;
 
 public static class SaveSystem
 {
@@ -36,5 +37,11 @@ public static class SaveSystem
       return null;
     }
 
+  }
+
+  public static void HardResetGame()
+  {
+    SceneManager.LoadScene("StartMenu");
+    File.Delete(Application.persistentDataPath + "/player.data");
   }
 }
