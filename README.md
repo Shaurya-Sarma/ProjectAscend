@@ -8,6 +8,7 @@ To what exactly?... Nobody knows what lies ahead, after all no one has made it o
 ##  Platforms
 Available  on:
 https://shaux.itch.io/resurrection
+https://simmer.io/@Shaux/resurrection
 
 ## Other
 The game is created using Unity and written in C# 
